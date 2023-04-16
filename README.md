@@ -1,6 +1,8 @@
 # Fruit_Classification
 Fruit Classification using HOG discriptor and SVM classifier (From Scratch)
 
+HOG discriptor and SVM classifier is an old-fashioned way for classification. The result maybe less efficient than using SOTA method (such as CNN,...)
+
 ## Dataset
 Including 2 classes: Rotten and Fresh
 
@@ -23,3 +25,7 @@ Run **main.py**
 ![Loss](https://user-images.githubusercontent.com/101311817/232274448-8babdcca-2209-4df2-bbee-371f8c6590db.png)
 
 ![Accuracy](https://user-images.githubusercontent.com/101311817/232274449-ff992547-6121-4a41-bf3d-6fb6d4527b64.png)
+
+### Test result
+
+Test accuracy = **89,26%**
