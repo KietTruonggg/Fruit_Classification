@@ -214,10 +214,6 @@ def train(data_dir):
     # model_svm.fit(hog_train, y_train)
     # y_predict = model_svm.predict(hog_test)
     # print('Độ chính xác: ', model_svm.score(hog_test, y_test))
-    test = cv2.imread('vertical_flip_Screen Shot 2018-06-08 at 2.31.33 PM.png')
-    hog = Hog_discriptor(test, cell_size=8, block_size=2, bins=9)
-    feat = hog.compute_feature()
-    print(model_svm.predict(feat))
 
 if __name__ == "__main__":
     data_dir = 'FruitData'
