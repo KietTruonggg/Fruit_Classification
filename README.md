@@ -10,6 +10,10 @@ Including 2 classes: Rotten and Fresh
 
 <img src="https://user-images.githubusercontent.com/101311817/232272994-c19394c5-940f-4b99-8701-293785b01728.png" width="200" height="200"> <img src="https://user-images.githubusercontent.com/101311817/232273044-ed343b42-5250-484a-a63a-a4e5a1c2827f.png" width="200" height="200">
 
+## Install requirements
+
+pip install -r requirements.txt
+
 ## Training
 
 Each image will be computed its Hog features
